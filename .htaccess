@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule /02_ProjectPortfolio/ [R,L]

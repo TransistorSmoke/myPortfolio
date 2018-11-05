@@ -1,0 +1,1 @@
+This .htaccess file is for localhost only.
