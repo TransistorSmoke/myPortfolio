@@ -31,7 +31,7 @@
     }
 
     $content="From: $name \nEmail: $email \nMessage: $message";
-    $recipient = "inquiries@jmalegado.com";
+    $recipient = "<my email id>";
     $mailheader = "From: $email \r\n";
     // $subject = "New Inquiry from $name";
 
