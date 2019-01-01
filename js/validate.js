@@ -4,12 +4,12 @@ function validateForm() {
   formData = {
     name: $('input[name=name]').val(),
     email: $('input[name=email]').val(),
-    subject: $('input[name=subject]').val(),
+    // subject: $('input[name=subject]').val(),
     message: $('textarea[name=message]').val()
   };
 
   $.ajax({
-    url: 'mail.php',
+    url: 'sendemail.php',
     type: 'POST',
     data: formData,
     success: function(data, textStatus, jqXHR) {
