@@ -54,7 +54,7 @@
     
         //Recipients
         $mail->setFrom('inquiries@jmalegado.com', 'Jason');
-        $mail->addAddress('jmaalegado@gmail.com');  
+        $mail->addAddress('jalegado22@gmail.com');  
        
 
         //Content
